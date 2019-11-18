@@ -1,0 +1,115 @@
+body {
+    background: url('../images/main_bg.gif');
+}
+
+#wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.header {
+    background: url('../images/steve-jobs-face.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 174px;
+    padding-bottom: 275px;
+    margin-top: -156px;
+}
+
+.gambar_header {
+    padding-top: 49px;
+    width: 349px;
+}
+
+.menu {
+    background-color: black;
+    margin-top: -16px;
+}
+
+.menu ul {
+    text-align: center;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.menu ul li a {
+    color: white;
+    font-size: 25px;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.box1 {
+    float: left;
+    width: 380px;
+}
+
+.judul {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.kotak1,
+.kotak2,
+.kotak3 {
+    margin-bottom: 25px;
+}
+
+.kotak1 {
+    background-color: white;
+}
+
+.keterangan {
+    display: flex;
+}
+
+.kotak1 img {
+    margin-right: 5px;
+}
+
+.kotak2 img,
+.kotak3 img {
+    width: 100%;
+}
+
+.box2 {
+    float: right;
+    width: 570px;
+    background-color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: justify;
+}
+
+.box2 img {
+    width: 200px;
+    height: 135px;
+    float: left;
+    margin-right: 15px;
+}
+
+.paragraph {
+    text-indent: 35px;
+}
+
+.paragraph.border {
+    border-bottom: 2px dotted;
+}
+
+#footer {
+    overflow: hidden;
+    text-align: center;
+}
+
+.container {
+    width: 1000px;
+    height: 40px;
+}

@@ -1,0 +1,44 @@
+body {
+    background-image: url("../images/tweed.png");
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.contents {
+    text-align: justify;
+    padding: 20px;
+    height: 80px;
+    margin-bottom: 40px;
+}
+
+.content1 {
+    background-color: #9168b3;
+    margin-left: 250px;
+    margin-right: 150px;
+}
+
+.content2 {
+    background-color: #a8b368;
+    margin-left: 150px;
+    margin-right: 250px;
+}
+
+.content3 {
+    background-color: #b36c68;
+    margin-left: 250px;
+    margin-right: 150px;
+}
+
+.content4 {
+    background-color: #636363;
+    margin-left: 150px;
+    margin-right: 250px;
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Form Registration</title>
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700|Archivo+Narrow:400,700"
+		rel="stylesheet" type="text/css">
+	<link href="styles/style.css" rel="stylesheet" type="text/css" media="all" />
+
+</head>
+
+<body>
+	<div id="logo" class="container">
+		<h1><a href="#">FORM EXERCISE</a></h1>
+	</div>
+
+	<div id="page" class="container">
+		<div id="box1">
+			<h2 class="title"><a href="#">Member Registration Form</a></h2>
+			<div style="clear: both;">&nbsp;</div>
+			<div class="entry">
+				<p>
+					<strong>
+						Fill out the registration form on the side with the correct data. All the fields that exist
+						in this form must be filled
+					</strong>
+				</p>
+			</div>
+		</div>
+
+		<div id="box2">
+			<!-- BUILD FORM PENDAFTARAN START FROM HERE, INCLUDE FULLNAME,USERNAME,PASSWORD,GENDER,BIRTDATE,HOBY,ADDRESS AND SUBMIT BUTTON -->
+			<form action="">
+				<table>
+					<tr>
+						<td>Fullname</td>
+						<td>:</td>
+						<td><input type="text" name="fullname" placeholder="Please insert fullname" class="kotak"></td>
+					</tr>
+					<tr>
+						<td>Username*</td>
+						<td>:</td>
+						<td><input type="text" name="username" placeholder="Please insert username" required
+								class="kotak"></td>
+					</tr>
+					<tr>
+						<td>Password*</td>
+						<td>:</td>
+						<td>
+							<input type="password" name="password" placeholder="Password" required class="kotak"
+								class="kotak">
+						</td>
+					</tr>
+					<tr>
+						<td>Email*</td>
+						<td>:</td>
+						<td><input type="email" name="email" placeholder="Please insert email address" required
+								class="kotak"></td>
+					</tr>
+					<tr>
+						<td>Gender</td>
+						<td>:</td>
+						<td>
+							<input type="radio" name="gender" id="" value="Male" checked>Male
+							<input type="radio" name="gender" id="" value="Female">Female
+						</td>
+					</tr>
+					<tr>
+						<td>Birth Day</td>
+						<td>:</td>
+						<td>
+							<select name="day" id="">
+								<option value="day">--Day--</option>
+							</select>
+							<select name="month" id="">
+								<option value="month">--Month--</option>
+							</select>
+							<select name="year" id="">
+								<option value="year">--Year--</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>Hobby</td>
+						<td>:</td>
+						<td>
+							<input class="check" type="checkbox" name="sports" id="">sports
+							<input class="check" type="checkbox" name="Travel" id="">Travel
+							<input class="check" type="checkbox" name="Culture" id="">Culture
+							<br>
+							<input class="check" type="checkbox" name="Culture" id="">Culinary
+							<input class="check" type="checkbox" name="Shopping" id="">Shopping
+							<input class="check" type="checkbox" name="Praying" id="">Praying
+						</td>
+					</tr>
+					<tr>
+						<td valign="top">Address</td>
+						<td valign="top">:</td>
+						<td>
+							<textarea name="" id="" cols="30" rows="10" placeholder="Address"></textarea>
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td>
+							<input type="submit" value="submit" placeholder="submit">
+							<input type="reset" value="reset" placeholder="Reset">
+						</td>
+					</tr>
+				</table>
+			</form>
+		</div>
+
+
+
+	</div>
+	<div id="footer" class="container">
+		<p>Copyright (c) 2019 Irwan Wahyudi </p>
+	</div>
+</body>
+
+</html>
